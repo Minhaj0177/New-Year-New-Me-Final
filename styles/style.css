@@ -1,0 +1,82 @@
+/* common shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.work-sans-fonts{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+  }
+.btn-primary{
+    padding: 25px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(0, 95, 172, 1);
+    background-color: white;
+}
+section{
+    margin: 130px 0;
+}
+.section-title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-description{
+    font-size: 20px;
+}
+
+/* banner related styles */
+.header{
+    height: 100vh;
+    width: 100%;
+    padding: 200px 275px;
+    background-image: url("../images/banner/banner3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner{
+    /* max-width: 600px; */
+    text-align: right;
+}
+.banner-title{
+    margin-bottom: 30px;
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+.banner-description{
+    margin-bottom: 35px;
+    font-size: 20px;
+    color: white;
+}
+
+/* failure section related styles */
+.failure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 105px;
+    margin: 130px 250px;
+}
+.failure-image img{
+    height: auto;
+    width: 100%;
+}
+.failure-container{
+    max-width: 500px;
+}
+.failure-list{
+    margin-top: 20px;
+    list-style: none;
+}
+.failure-list li span{
+    margin-right: 10px;
+    color: rgba(22, 216, 135, 1);
+}
