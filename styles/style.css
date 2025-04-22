@@ -20,7 +20,7 @@
     background-color: white;
 }
 section{
-    margin: 130px 0;
+    margin: 130px auto;
 }
 .section-title{
     font-size: 48px;
@@ -38,6 +38,7 @@ section{
     padding: 200px 275px;
     background-image: url("../images/banner/banner3.png");
     background-size: cover;
+    /* object-fit: cover; */
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -79,4 +80,28 @@ section{
 .failure-list li span{
     margin-right: 10px;
     color: rgba(22, 216, 135, 1);
+}
+
+/* positive-mindset section related styles */
+.positive-mindset{
+    max-width: 1140px;
+    margin: 130px auto;
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    padding: 60px 65px;
+}
+.positive-mindset h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.positive-mindset button{
+    color: rgba(0, 95, 172, 1);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
 }
